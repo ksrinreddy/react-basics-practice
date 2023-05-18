@@ -102,7 +102,7 @@ function App() {
       {/* ********** react-router basics ********* */}
       {/* <ReactRouterSetup /> */}
 
-      {/* ********** useCallback useMemo basics ********* */}
+      {/* ********** useCallback useMemo memo basics ********* */}
       <UseCallbackUseMemoBasics />
     </div>
   );

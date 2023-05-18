@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useCallback, useMemo } from "react";
+
+// use of custom hook
 import { useFetch } from "../9-custom-hooks/2-useFetch";
 
 const url = "https://course-api.com/javascript-store-products";
