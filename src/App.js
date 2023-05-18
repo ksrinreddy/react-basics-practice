@@ -30,7 +30,11 @@ import React from "react";
 // import UseRefBasics from "./tutorial/5-useRef/1-useRef-basics";
 
 // ********* useRef basics **********
-import UseReducerBasics from "./tutorial/6-useReducer";
+
+// import UseReducerBasics from "./tutorial/6-useReducer";
+
+// ********* prop-drilling basics **********
+import PropDrilling from "./tutorial/7-prop-drilling/1-prop-drilling";
 
 function App() {
   return (
@@ -60,7 +64,10 @@ function App() {
       {/* <UseRefBasics /> */}
 
       {/* ********** useReducer basics ********* */}
-      <UseReducerBasics />
+      {/* <UseReducerBasics /> */}
+
+      {/* ********** prop-drilling basics ********* */}
+      <PropDrilling />
     </div>
   );
 }
