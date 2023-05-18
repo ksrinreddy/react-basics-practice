@@ -1,4 +1,5 @@
 import React from "react";
+import UseCallbackUseMemoBasics from "./tutorial/12-memo-useMemo-useCallback";
 
 // ********* useState basics **********
 
@@ -51,7 +52,9 @@ import React from "react";
 
 // ********** react-router basics *********
 
-import ReactRouterSetup from "./tutorial/11-react-router";
+// import ReactRouterSetup from "./tutorial/11-react-router";
+
+// ********** useCallback useMemo basics *********
 
 function App() {
   return (
@@ -96,7 +99,10 @@ function App() {
       {/* <PropTypesBasics /> */}
 
       {/* ********** react-router basics ********* */}
-      <ReactRouterSetup />
+      {/* <ReactRouterSetup /> */}
+
+      {/* ********** useCallback useMemo basics ********* */}
+      <UseCallbackUseMemoBasics />
     </div>
   );
 }
