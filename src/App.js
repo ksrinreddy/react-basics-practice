@@ -23,7 +23,11 @@ import React from "react";
 // ********* forms basics **********
 
 // import ControlledInputs from "./tutorial/4-forms/1-controlled-inputs";
-import ControlledInputs from "./tutorial/4-forms/2-multiple-inputs";
+// import ControlledInputs from "./tutorial/4-forms/2-multiple-inputs";
+
+// ********* useRef basics **********
+
+import UseRefBasics from "./tutorial/5-useRef/1-useRef-basics";
 
 function App() {
   return (
@@ -47,7 +51,10 @@ function App() {
 
       {/* ********** forms basics ********* */}
       {/* <ControlledInputs /> */}
-      <ControlledInputs />
+      {/* <ControlledInputs /> */}
+
+      {/* ********** useRef basics ********* */}
+      <UseRefBasics />
     </div>
   );
 }
