@@ -34,7 +34,11 @@ import React from "react";
 // import UseReducerBasics from "./tutorial/6-useReducer";
 
 // ********* prop-drilling basics **********
-import PropDrilling from "./tutorial/7-prop-drilling/1-prop-drilling";
+// import PropDrilling from "./tutorial/7-prop-drilling/1-prop-drilling";
+
+// ********* contextAPI / useContext basics **********
+
+import ContextAPI from "./tutorial/8-useContext/1-context-api";
 
 function App() {
   return (
@@ -67,7 +71,10 @@ function App() {
       {/* <UseReducerBasics /> */}
 
       {/* ********** prop-drilling basics ********* */}
-      <PropDrilling />
+      {/* <PropDrilling /> */}
+
+      {/* ********** contextAPI / useContext basics ********* */}
+      <ContextAPI />
     </div>
   );
 }
