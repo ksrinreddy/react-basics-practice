@@ -27,7 +27,10 @@ import React from "react";
 
 // ********* useRef basics **********
 
-import UseRefBasics from "./tutorial/5-useRef/1-useRef-basics";
+// import UseRefBasics from "./tutorial/5-useRef/1-useRef-basics";
+
+// ********* useRef basics **********
+import UseReducerBasics from "./tutorial/6-useReducer";
 
 function App() {
   return (
@@ -54,7 +57,10 @@ function App() {
       {/* <ControlledInputs /> */}
 
       {/* ********** useRef basics ********* */}
-      <UseRefBasics />
+      {/* <UseRefBasics /> */}
+
+      {/* ********** useReducer basics ********* */}
+      <UseReducerBasics />
     </div>
   );
 }
