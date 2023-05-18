@@ -22,10 +22,12 @@ const UseCallbackUseMemoBasics = () => {
   const [count, setCount] = useState(0);
   const [cart, setCart] = useState(0);
 
+  // useCallback ***
   const addToCart = useCallback(() => {
     setCart(cart + 1);
   }, [cart]);
 
+  // useMemo ***
   const mostExpensive = useMemo(
     () => calculateMostExpensive(products),
     [products]
@@ -43,6 +45,7 @@ const UseCallbackUseMemoBasics = () => {
   );
 };
 
+// memo ***
 const BigList = React.memo(({ products, addToCart }) => {
   useEffect(() => {
     console.log("biglist called");
