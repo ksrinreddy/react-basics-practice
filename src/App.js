@@ -12,7 +12,13 @@ import React from "react";
 
 // import UseEffectBasics from "./tutorial/2-useEffect/1-useEffect-basics";
 // import UseEffectCleanup from "./tutorial/2-useEffect/2-useEffect-cleanup";
-import UseEffectFetchData from "./tutorial/2-useEffect/3-useEffect-fetch-data";
+// import UseEffectFetchData from "./tutorial/2-useEffect/3-useEffect-fetch-data";
+
+// ********* conditional rendering basics **********
+
+// import MultipleReturns from "./tutorial/3-conditional-rendering/1-multiple-returns";
+// import ShortCircuit from "./tutorial/3-conditional-rendering/2-short-circuit";
+import ShowHide from "./tutorial/3-conditional-rendering/3-show-hide";
 
 function App() {
   return (
@@ -27,7 +33,12 @@ function App() {
       {/* ********** useEffect basics ********* */}
       {/* <UseEffectBasics /> */}
       {/* <UseEffectCleanup /> */}
-      <UseEffectFetchData />
+      {/* <UseEffectFetchData /> */}
+
+      {/* ********** conditional rendering basics ********* */}
+      {/* <MultipleReturns /> */}
+      {/* <ShortCircuit /> */}
+      <ShowHide />
     </div>
   );
 }
