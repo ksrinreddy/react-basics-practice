@@ -47,7 +47,11 @@ import React from "react";
 
 // ********* prop-types basics **********
 
-import PropTypesBasics from "./tutorial/10-prop-types";
+// import PropTypesBasics from "./tutorial/10-prop-types";
+
+// ********** react-router basics *********
+
+import ReactRouterSetup from "./tutorial/11-react-router";
 
 function App() {
   return (
@@ -89,7 +93,10 @@ function App() {
       {/* <FetchExample /> */}
 
       {/* ********** prop-types basics ********* */}
-      <PropTypesBasics />
+      {/* <PropTypesBasics /> */}
+
+      {/* ********** react-router basics ********* */}
+      <ReactRouterSetup />
     </div>
   );
 }
