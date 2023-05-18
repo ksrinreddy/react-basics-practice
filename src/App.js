@@ -18,7 +18,12 @@ import React from "react";
 
 // import MultipleReturns from "./tutorial/3-conditional-rendering/1-multiple-returns";
 // import ShortCircuit from "./tutorial/3-conditional-rendering/2-short-circuit";
-import ShowHide from "./tutorial/3-conditional-rendering/3-show-hide";
+// import ShowHide from "./tutorial/3-conditional-rendering/3-show-hide";
+
+// ********* forms basics **********
+
+// import ControlledInputs from "./tutorial/4-forms/1-controlled-inputs";
+import ControlledInputs from "./tutorial/4-forms/2-multiple-inputs";
 
 function App() {
   return (
@@ -38,7 +43,11 @@ function App() {
       {/* ********** conditional rendering basics ********* */}
       {/* <MultipleReturns /> */}
       {/* <ShortCircuit /> */}
-      <ShowHide />
+      {/* <ShowHide /> */}
+
+      {/* ********** forms basics ********* */}
+      {/* <ControlledInputs /> */}
+      <ControlledInputs />
     </div>
   );
 }
