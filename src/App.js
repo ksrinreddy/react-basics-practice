@@ -1,4 +1,5 @@
 import React from "react";
+import UseCallbackUseMemoBasics from "./tutorial/12-memo-useMemo-useCallback";
 
 // ********* useState basics **********
 
