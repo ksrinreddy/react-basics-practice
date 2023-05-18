@@ -43,7 +43,11 @@ import React from "react";
 
 // ********* custom-hooks basics **********
 
-import FetchExample from "./tutorial/9-custom-hooks/1-fetch-example";
+// import FetchExample from "./tutorial/9-custom-hooks/1-fetch-example";
+
+// ********* prop-types basics **********
+
+import PropTypesBasics from "./tutorial/10-prop-types";
 
 function App() {
   return (
@@ -82,7 +86,10 @@ function App() {
       {/* <ContextAPI /> */}
 
       {/* ********** custom-hooks basics ********* */}
-      <FetchExample />
+      {/* <FetchExample /> */}
+
+      {/* ********** prop-types basics ********* */}
+      <PropTypesBasics />
     </div>
   );
 }
